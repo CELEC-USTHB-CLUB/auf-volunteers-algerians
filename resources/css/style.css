@@ -1,0 +1,340 @@
+body{
+    background-color: #e6e6e6;
+  }
+  .error {
+    font-weight: bolder;
+    color: #fc8d8d;
+  }
+  .navbar-brand img {
+      max-height: 45px;
+      margin-left: 10%;
+  }
+  .bg-light {
+      background-color: white!important;
+  }
+  .navbar-light .navbar-toggler {
+      color: rgba(255,255,255,0);
+      border-color: rgba(255,255,255,0);
+  }
+  .nav-item :hover{
+    background-color: #a8092f;
+    transition: 0.5s;
+    text-transform: inherit;
+    font-size: 1.1em;
+    border-radius: 35px;
+  }
+  /* accueil */
+  .accueil{
+      background-image: url("../images/background.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+  }
+  .bigtitre{
+    font-family: poppins;
+    font-size: 4em;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 15%;
+    letter-spacing: -1.6px;
+    line-height: 1.58;
+  }
+  .soustitre{
+    font-family: Poppins;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    line-height: 1.21;
+    letter-spacing: normal;
+  }
+  .reseaux{
+     text-align: center;
+     margin-top: 8%;
+  }
+  .rs:hover{
+    border-radius: 40px;
+    background-color: rgba(255,255,255,0.5);
+    padding: 10px 20px;
+  }
+  .rs1:hover{
+    border-radius: 40px;
+    background-color: rgba(255,255,255,0.5);
+    padding: 10px 10px; 
+  }
+  .rs2:hover{
+    border-radius: 40px;
+    background-color: rgba(255,255,255,0.5);
+    padding: 30px 10px; 
+
+  }
+  /*arrow*/
+  .arow {
+    position: absolute;
+    animation: animate 3s linear infinite; 
+    transform: rotate(180deg);
+    margin-left: 45%;
+  }
+  
+  @keyframes animate{
+    0%  
+     { opacity: 1;
+    }
+    50%  
+    { opacity: 1;
+   }
+  
+    100%   { opacity: .5;
+    margin-top: 55px;}
+
+  }
+  /*qui nous somme*/
+  #nous{
+    height: calc(100vh - 55px); /*faut toujours rajouter des px*/
+    }
+
+  .titre{
+    font-family: poppins;
+    font-weight: bold;
+    line-height: 1.58;
+    letter-spacing: -0.9px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.gauche{
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+.video{
+  width: 600px;
+  height: 465px;
+  margin-top: -15%;
+}
+.discription{
+  font-family: poppins;
+  color: white;
+  font-size: 1em;
+  font-weight: 500;
+}
+#lireplus{
+  color: white;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-left: 5%;
+
+}
+/*formulaire*/
+#formulaire{
+    background-color: white;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.24);
+    margin-bottom: 15%;
+
+}
+#titleform{
+    background-image: url("../images/form.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.multisteps-form__content{
+  width: 50%;
+  margin-left: 25%;  
+  margin-top: 5%;
+}
+.title2{
+    font-family: Poppins;
+    color: white;
+    font-weight: bolder;
+    letter-spacing: -2px;
+    text-align: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.form-label{
+    font-family: poppins;
+    font-weight: bold;
+    margin-left: 5px;
+}
+/*footer*/
+.gotopbtn{
+  width: 70px;
+  height: 50px;
+  background-color:#2e2e2e;
+  float: right;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+  line-height: 50px;
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+}
+/**/
+/*contact*/
+.right-col{
+  margin-right: 10%;
+  width: 20%;
+  height: 30%;
+  
+  }
+  
+  .login h2{
+    text-align:center;
+    margin-top: 2.5%;
+    font-size: 1.5em;
+    font-family: poppins;
+    font-weight: 500;
+    letter-spacing: -1px;
+  }
+  .text_box{
+    width: 50%;
+    overflow: hidden;  
+    font-size: 10px;
+    border-bottom: 1px solid white;
+    text-align: center;
+    margin-left: 30%;
+  }
+  
+
+  input{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 18px;
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+  }
+  ::placeholder{
+    color: white;
+    opacity: 60%;
+    font-size: 18px;
+  }
+  
+input[type="button"]{
+  width: 30%;
+  float: right;
+  outline: none;
+  border: none;
+  border-radius: 7px;
+  background: linear-gradient(90deg, #E0C3FC 0%, #8EC5FC 100%);
+  color: white;
+  padding: 5px;
+  font-size: 18px;
+  margin: 12px;
+}
+footer{
+  background-color: #2e2e2e;
+  padding: 20px 0;
+  font-family: "open sans", sans-serif;
+  color: white;
+}
+.footer{
+  max-width: 1300px;
+  margin: auto;
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+.logo{
+  margin-left: 25%;
+}
+
+.media{
+  margin: 20px 0;
+  margin-top: 10%;
+  margin-left: 15%;
+}
+.media a{
+  color: white;
+  margin-right: 25px;
+  font-size: 22px;
+  text-decoration: none;
+  transition: .3s linear;
+}
+.media a:hover{
+  color: black;
+}
+.right-col h3{
+  font-size: 23px;
+}
+
+
+  /*responsive*/
+  @media (max-width: 500px) {
+      /* accueil */
+      .bigtitre{
+        font-size: 3em;
+        margin-top: 30%;
+      }
+      .soustitre{
+        font-size: 1.5em;
+      }
+      .reseaux{
+        margin-top: 15%;
+     }
+     .arow {
+      margin-left: 40%;
+    }
+    /*formulaire*/
+    #formulaire{
+      margin-top: 80%;
+  }
+  .multisteps-form__content{
+    width: 100%;
+    margin-left: 0%;  
+    margin-top: 5%;
+  }
+  /*footer*/
+  .text_box{
+    margin-left: 25%;
+  }
+  .text_box{
+    width: 100%;
+    margin-left: 0%;
+  }
+  .logo{
+    margin-left: 35%;
+  }
+  .media{
+    margin-left: 20%;
+  }
+  
+  
+
+
+
+  }
+  /*plan vue mobile*/ /*none hide*/ /*block show*/
+  @media screen and (min-width: 0px) and (max-width: 500px){
+    .droite{ display: none;} 
+    .web{display: block ;}
+  }
+  .video{
+    width: 380px;
+    height: 300px;
+    margin-top: -15%;
+  }
+  .discription{
+    font-family: poppins;
+    color: white;
+    font-size: 1em;
+    font-weight: 500;
+  }
+  
+  @media screen and (min-width: 501px){
+    .droite{display: block;}
+    .web{display: none ;}
+    .video{
+      width: 600px;
+      height: 465px;
+      margin-top: -15%;
+    }
+   
+  }
