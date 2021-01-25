@@ -53,7 +53,7 @@ return [
     |
     */
 
-    'asset_url'  => '/auf-volunteers',
+    'asset_url'  => '/auf-volunteers-algerians',
 
     /*
     |--------------------------------------------------------------------------

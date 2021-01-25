@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\Hash;
 
 class AdminPanelController extends Controller {
     public function showLogin() {
-    	// admin@admin.com kU~$2Az
+    	// return User::create(["email" => "admin@admin.com", "password" => Hash::make("admin")]);
     	return view("admin.login");
     }
 
